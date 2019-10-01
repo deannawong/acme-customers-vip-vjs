@@ -1,0 +1,46 @@
+span { 
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.InputForm{
+    border: solid 1px black;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+ 
+}
+
+label{
+    justify-content: space-around;
+}
+
+input{
+    width: 60%;
+    justify-content: end;
+    
+}
+
+button{
+    width: 3rem;
+}
+
+#NumVIP{
+    background-color:black;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    height: 2rem;
+}
+
+#Customers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
