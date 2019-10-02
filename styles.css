@@ -12,18 +12,19 @@ body{
     border: solid 1px black;
     display:flex;
     flex-direction: column;
-    /* justify-content: space-around; */
- 
+    padding: 1rem;
+}
+.inputRow{
+    display:flex;
+    margin: 0.5rem 0;
 }
 
 label{
-    justify-content: space-around;
+    flex:1;
 }
 
 input{
-    width: 60%;
-    justify-content: end;
-    
+    flex:2;   
 }
 
 button{
@@ -38,9 +39,24 @@ button{
     height: 2rem;
 }
 
-#Customers{
+#customersContainer{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.card{
+    display:flex;
+    align-items: center;
+}
+.card h3{
+    flex: 5;
+}
+.destroy{
+    flex: 1;
+}
+
+.VIP{
+    background-color: dodgerblue;
+    color:white;
 }

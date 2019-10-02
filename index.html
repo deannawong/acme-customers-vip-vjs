@@ -10,15 +10,25 @@
     <h1>Acme Customers <span>VIP</span></h1>
     <form class='InputForm'>
         <h2>Customer Input Form</h2>
-        <label>Name<input id='Name' type='text'></label>
-        <label>Email <input id='Email' type='text'></label>
-        <label>IsVIP <input id='IsVIP' type='checkbox'></label>
+
+        <div class="inputRow">
+            <label>Name</label><input id='Name' type='text'>
+        </div>
+        
+        <div class="inputRow">
+            <label>Email </label><input id='Email' type='text'>
+        </div>
+
+        <div class="inputRow">
+            <label>IsVIP </label><input id='IsVIP' type='checkbox'>
+        </div>
+
         <button>Create</button>
     </form>
     <div id="NumVIP">
 
     </div>
-    <div id="Customers">
+    <div id="customersContainer">
         
     </div>
 </body>
